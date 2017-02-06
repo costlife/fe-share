@@ -1,0 +1,51 @@
+.actionsheet-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.40);
+}
+
+.actionsheet-body {
+    position: absolute;
+    bottom: 75px;
+    left: 10px;
+    right: 10px;
+    line-height: 57px;
+    background: #fcfcfc;
+    opacity: .8;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.actionsheet-item-figure {
+    font-family: SFUIDisplay-Regular;
+    font-size: 20px;
+    color: #0076FF;
+}
+
+.actionsheet-item-figure:not(:last-child) {
+    border-bottom: 1px solid #ededed;
+}
+
+.actionsheet-label {
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #8F8E94;
+}
+
+.actionsheet-cancel {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 57px;
+    line-height: 57px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    font-family: PingFangSC-Semibold;
+    font-size: 20px;
+    color: #0076FF;
+}
