@@ -40,7 +40,7 @@ $.fn.actionSheet = function(params) {
         .on('click', '.actionsheet-item', function (e) {
             onClick($(this).data('value'));
         })
-        .on('click', '.actionsheet-cancel', function (e) {
+        .on('click', '.actionsheet-cancel, .actionsheet-bg', function (e) {
             onCancel();
         });
 

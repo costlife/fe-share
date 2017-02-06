@@ -9,7 +9,8 @@ $(function () {
             value: 100,
         }],
         onClick: function (value) {
-            alert(value);
+            console.log(value);
+            $as.hide();
         },
         onCancel: function (e) {
             $as.hide();
